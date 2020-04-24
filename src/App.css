@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "CookieRunOTF-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/CookieRunOTF-Bold00.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import "~slick-carousel/slick/slick.css";
+
+* {
+  color: #222;
+  font-family: "CookieRunOTF-Bold";
+}
+body {
+  font-size: 14px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #4a65f6;
+  text-decoration: none;
+}
+
+img {
+  outline: none;
+  width: 100%;
+  height: auto;
+}
+
+input {
+  outline-color: #4a65f6;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  height: 2rem;
+  width: 100%;
+  margin: 5px 0 8px 0;
+  padding: 0;
+}
+
+button {
+  width: auto;
+}
